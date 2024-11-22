@@ -9,12 +9,15 @@ import {
   AsymmetricReward,
 } from "@torque-labs/torque-utils";
 
+console.log(process.env.ADMIN_API_KEY);
+
 // SET UP
 const ADMIN_API_KEY = process.env.ADMIN_API_KEY as string;
 
 const signer = Keypair.fromSecretKey(
   new Uint8Array(JSON.parse(process.env.ADMIN_KEY as string))
 );
+
 const sdk = new TorqueSDK({
   network: "mainnet-beta",
   apiKey: ADMIN_API_KEY,

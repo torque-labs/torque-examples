@@ -15,6 +15,7 @@ export function TorqueWrapper({ children }: PropsWithChildren) {
     appUrl: process.env.NEXT_PUBLIC_TORQUE_APP_URL
       ? process.env.NEXT_PUBLIC_TORQUE_APP_URL
       : "https://app.torque.so",
+    rpc: process.env.NEXT_PUBLIC_RPC,
   };
 
   return (

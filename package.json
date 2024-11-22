@@ -14,7 +14,9 @@
     "@solana/wallet-adapter-react-ui": "^0.9.35",
     "@solana/wallet-adapter-wallets": "^0.19.32",
     "@solana/web3.js": "^1.95.5",
+    "@torque-labs/torque-ts-sdk": "^0.0.128",
     "@torque-labs/torque-ui": "^0.0.6",
+    "@torque-labs/torque-utils": "^1.1.61",
     "next": "14.2.18",
     "react": "^18",
     "react-dom": "^18"
